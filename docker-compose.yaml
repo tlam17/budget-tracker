@@ -1,5 +1,5 @@
 services:
-  backend:
+  api:
     container_name: budget-tracker-api
     build:
       context: ./budget-tracker-api
