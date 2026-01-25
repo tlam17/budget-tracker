@@ -11,7 +11,6 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.Index;
 import jakarta.persistence.Table;
 import jakarta.persistence.UniqueConstraint;
 import lombok.AllArgsConstructor;
@@ -22,9 +21,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Table(
     name = "users", 
-    indexes = {
-        @Index(name = "idx_user_email", columnList = "email")
-    },
     uniqueConstraints = {
         @UniqueConstraint(name = "ux_user_email", columnNames = "email")
     }
