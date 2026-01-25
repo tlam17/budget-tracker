@@ -110,7 +110,6 @@ erDiagram
       user_id uuid
       name string
       emoji string
-      is_income boolean
       sort_order int
       created_at datetime
       updated_at datetime

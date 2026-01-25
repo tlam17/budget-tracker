@@ -77,7 +77,6 @@ Update preferences.
 ### Categories
 
 #### GET `/categories`
-Optional query: `?includeIncome=true|false`
 
 #### POST `/categories`
 ```json
